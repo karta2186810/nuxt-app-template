@@ -1,42 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 模板
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## VSCode插件建議
+* EditorConfig for VS Code
+* Prettier(程式碼格式化工具)
+* Tailwind CSS IntelliSense(TailwindCSS 提示工具)
+* Volar(不推薦使用Vetur)
 
-## Setup
-
-Make sure to install the dependencies:
-
+## 初始化專案
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+yarn
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
-
+## Commit 提交方式(重要)
 ```bash
-npm run dev
+yarn commit 
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
